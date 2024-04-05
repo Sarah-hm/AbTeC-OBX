@@ -8,7 +8,7 @@
     <script src="js/script.js"></script>
   </head>
   <body>
-    <!-- all round -->
+    <!-- 1. all round -->
     <section class="grid-container">
       <!-- A -->
       <div class="grid-item round col-3 row-2"></div>
@@ -26,7 +26,7 @@
       <div class="grid-item round col-6 row-2"></div>
     </section>
 
-    <!-- all round, minimalist -->
+    <!-- 2. all round, minimalist -->
     <section class="grid-container">
       <!-- A -->
       <div class="grid-item round col-3 row-2"></div>
@@ -42,7 +42,7 @@
       <div class="grid-item round col-6 row-2"></div>
     </section>
 
-    <!-- all round, with small gap between rounds -->
+    <!-- 3. all round, with small gap between rounds -->
     <section class="grid-container gap">
       <!-- A -->
       <div class="grid-item round col-3 row-2"></div>
@@ -60,7 +60,87 @@
       <div class="grid-item round col-6 row-2"></div>
     </section>
 
-    <!-- negative space -->
+    <!-- negative space with custom grid-->
+    <section id="asym-grid-01" class="grid-container dark-background">
+      <!-- A -->
+      <div class="neg-item col-1 row-1"></div>
+      <div class="neg-item col-2 row-1"></div>
+      <div class="neg-item col-3 row-1"></div>
+      <div class="neg-item col-4 row-1"></div>
+      <div class="neg-item col-5 row-1"></div>
+      <div class="neg-item col-6 row-1"></div>
+      <div class="neg-item col-7 row-1"></div>
+
+      <div class="neg-item col-1 row-2"></div>
+      <div class="neg-item round-bottom-right col-2 row-2"></div>
+      <div class="neg-item col-3 row-2">
+        <div class="grid-item round-top"></div>
+      </div>
+
+      <div class="neg-item round-bottom-left col-4 row-2"></div>
+      <div class="neg-item col-5 row-2"></div>
+      <div class="neg-item col-6 row-2">
+        <div class="grid-item round"></div>
+      </div>
+
+      <div class="neg-item col-7 row-2"></div>
+
+      <div class="neg-item col-1 row-3"></div>
+      <div class="neg-item col-2 row-3">
+        <div class="grid-item round-top-left"></div>
+      </div>
+      <div class="neg-item round col-3 row-3"></div>
+      <div class="neg-item col-4 row-3">
+        <div class="grid-item round-top-right"></div>
+      </div>
+      <div class="neg-item col-5 row-3"></div>
+      <div class="neg-item col-6 row-3"></div>
+      <div class="neg-item col-7 row-3"></div>
+
+      <div class="neg-item col-1 row-4"></div>
+      <div class="grid-item col-2 row-4"></div>
+      <div class="grid-item col-3 row-4"></div>
+      <div class="grid-item col-4 row-4"></div>
+      <div class="neg-item col-5 row-4"></div>
+      <div class="neg-item col-6 row-4">
+        <div class="grid-item round-top"></div>
+      </div>
+
+      <div class="neg-item col-7 row-4"></div>
+
+      <div class="neg-item col-1 row-5"></div>
+      <div class="neg-item col-2 row-5">
+        <div class="grid-item round-bottom"></div>
+      </div>
+      <div class="neg-item round-top col-3 row-5"></div>
+      <div class="neg-item col-4 row-5">
+        <div class="grid-item round-bottom"></div>
+      </div>
+      <div class="neg-item col-5 row-5"></div>
+      <div class="neg-item col-6 row-5">
+        <div class="grid-item round-bottom"></div>
+      </div>
+      <div class="neg-item col-7 row-5"></div>
+
+      <div class="neg-item col-1 row-6"></div>
+      <div class="neg-item col-2 row-6"></div>
+      <div class="neg-item col-3 row-6"></div>
+      <div class="neg-item col-4 row-6"></div>
+      <div class="neg-item col-5 row-6"></div>
+      <div class="neg-item col-6 row-6"></div>
+      <div class="neg-item col-7 row-6"></div>
+
+      <div class="neg-item col-1 row-7"></div>
+      <div class="neg-item col-2 row-7"></div>
+      <div class="neg-item col-3 row-7"></div>
+      <div class="neg-item col-4 row-7"></div>
+      <div class="neg-item col-5 row-7"></div>
+      <div class="neg-item col-6 row-7"></div>
+      <div class="neg-item col-7 row-7"></div>
+
+      <!-- I -->
+    </section>
+
     <section class="grid-container dark-background">
       <!-- A -->
       <div class="neg-item col-1 row-1"></div>
@@ -296,6 +376,177 @@
       <div class="grid-item col-6 row-5"></div>
       <div class="grid-item col-6 row-4"></div>
       <div class="grid-item col-6 row-2"></div>
+    </section>
+
+    <!-- SVGs -->
+    <section class="grid-container svg-grid">
+      <svg class="grid-item col-1 row-1"></svg>
+      <svg class="grid-item col-1 row-2"></svg>
+      <svg class="grid-item col-1 row-3">
+        <path
+          class="cls-1"
+          d="M21.43,4.66v16.77H4.2c.25-3,.79-5.81,1.8-8.23,3.43-8.21,8.81-6.82,15.43-8.54Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,0v4.66c-6.62,1.72-12,.33-15.43,8.54-1.01,2.42-1.55,5.23-1.8,8.23H0V0h21.43Z"
+        />
+      </svg>
+      <svg class="grid-item col-1 row-4">
+        <path
+          class="cls-1"
+          d="M21.43,0v21.42H4.91c-.28-6.52-1.27-14.48-.71-21.42h17.23Z"
+        />
+        <path
+          class="cls-2"
+          d="M4.91,21.42H0V0h4.2c-.56,6.94.43,14.9.71,21.42Z"
+        />
+      </svg>
+      <svg class="grid-item col-1 row-5">
+        <path
+          class="cls-1"
+          d="M21.43,0v21.43H4.35c-.05-7.05.64-14.02.64-18.4,0-.97-.03-1.98-.08-3.03h16.52Z"
+        />
+        <path
+          class="cls-2"
+          d="M4.35,21.43H0V0h4.91c.05,1.05.08,2.06.08,3.03,0,4.38-.69,11.35-.64,18.4Z"
+        />
+      </svg>
+      <svg class="grid-item col-1 row-6">
+        <path
+          class="cls-1"
+          d="M21.43,0v21.43h-11.34C5.49,17.04,4.39,8.46,4.35,0h17.08Z"
+        />
+        <path
+          class="cls-2"
+          d="M10.09,21.43H0V0h4.35c.04,8.46,1.14,17.04,5.74,21.43Z"
+        />
+      </svg>
+      <svg class="grid-item col-1 row-7">
+        <path
+          class="cls-1"
+          d="M21.43,0v2.75c-5.14.87-8.78-.29-11.34-2.75h11.34Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,2.75v18.68H0V0h10.09c2.56,2.46,6.2,3.62,11.34,2.75Z"
+        />
+      </svg>
+
+      <svg class="grid-item col-2 row-1">
+        <path
+          class="cls-2"
+          d="M21.43,0v19.14c-1.67.55-3,1.34-4.07,2.29H0V0h21.43Z"
+        />
+        <path
+          class="cls-1"
+          d="M21.43,19.14v2.29h-4.07c1.07-.95,2.4-1.74,4.07-2.29Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-2">
+        <path
+          class="cls-1"
+          d="M21.43,0v21.43H7.92C12.96,15.24,11.53,5.14,17.36,0h4.07Z"
+        />
+        <path
+          class="cls-2"
+          d="M17.36,0c-5.83,5.14-4.4,15.24-9.44,21.43H0V0h17.36Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-3">
+        <path
+          class="cls-1"
+          d="M21.43,0v5.24c-6.86,2.34-9.6,9.76-8.31,16.19H0V4.66c.79-.2,1.6-.45,2.43-.77,2.43-.93,4.18-2.27,5.49-3.89h13.51Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,5.24v16.19h-8.31c-1.29-6.43,1.45-13.85,8.31-16.19Z"
+        />
+        <path
+          class="cls-2"
+          d="M7.92,0c-1.31,1.62-3.06,2.96-5.49,3.89-.83.32-1.64.57-2.43.77V0h7.92Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-4">
+        <path
+          class="cls-2"
+          d="M21.43,0v9.89c-4.64-1.54-7.42-5.49-8.31-9.89h8.31Z"
+        />
+        <path
+          class="cls-1"
+          d="M21.43,9.89v11.53H0V0h13.12c.89,4.4,3.67,8.35,8.31,9.89Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-5">
+        <path
+          class="cls-1"
+          d="M21.43,0v18.91c-1.8.58-3.2,1.45-4.31,2.52H0V0h21.43Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,18.91v2.52h-4.31c1.11-1.07,2.51-1.94,4.31-2.52Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-6">
+        <path
+          class="cls-1"
+          d="M17.12,0c-5.69,5.47-4.13,16.21-10.5,21.43H0V0h17.12Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,0v21.43H6.62C12.99,16.21,11.43,5.47,17.12,0h4.31Z"
+        />
+      </svg>
+      <svg class="grid-item col-2 row-7">
+        <path
+          class="cls-1"
+          d="M6.62,0c-1.37,1.12-3.11,1.99-5.37,2.5-.43.09-.84.18-1.25.25V0h6.62Z"
+        />
+        <path
+          class="cls-2"
+          d="M21.43,0v21.43H0V2.75c.41-.07.82-.16,1.25-.25C3.51,1.99,5.25,1.12,6.62,0h14.81Z"
+        />
+      </svg>
+
+      <svg class="grid-item col-3 row-1"></svg>
+      <svg class="grid-item col-3 row-2"></svg>
+      <svg class="grid-item col-3 row-3"></svg>
+      <svg class="grid-item col-3 row-4"></svg>
+      <svg class="grid-item col-3 row-5"></svg>
+      <svg class="grid-item col-3 row-6"></svg>
+      <svg class="grid-item col-3 row-7"></svg>
+
+      <svg class="grid-item col-4 row-1"></svg>
+      <svg class="grid-item col-4 row-2"></svg>
+      <svg class="grid-item col-4 row-3"></svg>
+      <svg class="grid-item col-4 row-4"></svg>
+      <svg class="grid-item col-4 row-5"></svg>
+      <svg class="grid-item col-4 row-6"></svg>
+      <svg class="grid-item col-4 row-7"></svg>
+
+      <svg class="grid-item col-5 row-1"></svg>
+      <svg class="grid-item col-5 row-2"></svg>
+      <svg class="grid-item col-5 row-3"></svg>
+      <svg class="grid-item col-5 row-4"></svg>
+      <svg class="grid-item col-5 row-5"></svg>
+      <svg class="grid-item col-5 row-6"></svg>
+      <svg class="grid-item col-5 row-7"></svg>
+
+      <svg class="grid-item col-6 row-1"></svg>
+      <svg class="grid-item col-6 row-2"></svg>
+      <svg class="grid-item col-6 row-3"></svg>
+      <svg class="grid-item col-6 row-4"></svg>
+      <svg class="grid-item col-6 row-5"></svg>
+      <svg class="grid-item col-6 row-6"></svg>
+      <svg class="grid-item col-6 row-7"></svg>
+
+      <svg class="grid-item col-6 row-1"></svg>
+      <svg class="grid-item col-6 row-2"></svg>
+      <svg class="grid-item col-6 row-3"></svg>
+      <svg class="grid-item col-6 row-4"></svg>
+      <svg class="grid-item col-6 row-5"></svg>
+      <svg class="grid-item col-6 row-6"></svg>
+      <svg class="grid-item col-6 row-7"></svg>
     </section>
   </body>
 </html>
