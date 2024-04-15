@@ -12,13 +12,23 @@
   --small-fr: 0.5fr;
   --gap: 1px;
   /* --border-radius: 10vh; */
-  --border-radius: 10px;
+  --border-radius: 25px;
   --border-radius-round: 10vh;
 }
 
+section {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grid-container {
-  width: 150px;
-  height: 150px;
+  margin: auto;
+  width: 50vmin;
+  height: 50vmin;
   display: grid;
   gap: 0;
   grid-template-columns:
@@ -278,24 +288,19 @@ svg {
     var(--small-fr) var(--small-fr) var(--large-fr);
 }
 
-/* SVGs */
+/* buttons and navigation */
 
-.cls-1 {
-  fill: black;
+nav {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  margin: auto;
+  width: 100vw;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.cls-1,
-.cls-2 {
-  stroke-width: 0px;
+nav a button {
+  font-size: 2rem;
 }
-
-.cls-2 {
-  fill: #fff;
-}
-
-/* @keyframes col-width {
-    0%   {width: ;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-  } */
