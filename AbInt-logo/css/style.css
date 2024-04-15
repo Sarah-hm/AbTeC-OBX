@@ -25,6 +25,18 @@ section {
   align-items: center;
 }
 
+#welcome-section {
+  font-family: sans-serif;
+  font-weight: normal;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border: 1px black solid;
+  width: 80vw;
+  margin-inline: 10vw;
+  margin-bottom: 5vw;
+}
+
 .grid-container {
   margin: auto;
   width: 50vmin;
